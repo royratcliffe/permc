@@ -4,7 +4,7 @@ static void swap_ints(int *lhs, int *rhs);
 
 static void reverse_ints(int ints[], int start, int end);
 
-bool next_permutation_ints(int ints[], int length) {
+bool next_permutation_of_ints(int ints[], int length) {
   /*
    * Find the largest index i such that ints[i] < ints[i + 1]. If no such
    * index exists, the permutation is the last permutation. Find the largest

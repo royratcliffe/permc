@@ -15,6 +15,6 @@
  * permutation is the last permutation (in which case the array is reset to the
  * first permutation).
  */
-bool next_permutation_ints(int ints[], int length);
+bool next_permutation_of_ints(int ints[], int length);
 
 #endif /* PERM_H */
