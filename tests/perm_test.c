@@ -1,6 +1,7 @@
 #include "perm.h"
 
 #include <stdlib.h>
+#include <stdio.h>
 
 /*!
  * \brief Test the next_permutation_ints function.
@@ -26,6 +27,10 @@ int perm_test(int argc, char **argv) {
    * 3 1 2
    * 3 2 1
    */
+  do {
+    (void)printf("%d %d %d\n", ints1[0], ints1[1], ints1[2]);
+  } while (next_permutation_of_ints(ints1, length1));
+
   if (!next_permutation_of_ints(ints1, length1) || ints1[0] != 1 || ints1[1] != 3 || ints1[2] != 2) {
     return EXIT_FAILURE;
   }
