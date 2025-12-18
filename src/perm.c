@@ -1,3 +1,11 @@
+/* SPDX-License-Identifier: MIT */
+/*!
+ * \file perm.c
+ * \brief Implementation file for permutation functions.
+ * \details This file implements the function for generating the next
+ * lexicographical permutation of an array of integers.
+ * \author Roy Ratcliffe
+ */
 #include "perm.h"
 
 static void swap_ints(int *lhs, int *rhs);

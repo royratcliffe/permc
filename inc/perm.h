@@ -1,3 +1,11 @@
+/* SPDX-License-Identifier: MIT */
+/*!
+ * \file perm.h
+ * \brief Header file for permutation functions.
+ * \details This header file declares the function for generating the next
+ * lexicographical permutation of an array of integers.
+ * \author Roy Ratcliffe
+ */
 #ifndef PERM_H
 #define PERM_H
 
